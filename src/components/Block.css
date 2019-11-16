@@ -1,0 +1,24 @@
+.block-img-row {
+    background-color: #9400d3;
+}
+
+.block-img-row > div {
+    background-color: inherit;
+    /* max-height: 300px; */
+}
+
+.block-img-row img {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .block-img-row > div {
+        max-height: 300px;
+    } 
+}
+
+@media (max-width: 768px) {
+    .block-img-row > div:nth-child(1) span {
+        padding-top: 80%;
+    }
+}
